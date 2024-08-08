@@ -1,11 +1,10 @@
 body {
-    background-color: slategray;
-    color:white;
+    background-color: #2e3a45;
+    color: white;
 }
 
 a {
-    color:lightcoral;
-
+    color: lightcoral;
 }
 
 h1 {
@@ -15,91 +14,65 @@ h1 {
     text-align: center;
 }
 
-h2{
-
+h2 {
     font-size: 12px;
     color: lightgrey;
     text-align: center;
     font-weight: lighter;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: "Trebuchet MS", sans-serif;
 }
-
 
 table.menuTable {
     width: 90vw;
     max-width: 800px;
     height: 30px;
-    padding: auto;
     margin: auto;
     border-collapse: collapse;
     text-align: left;
     font-size: 16px;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: "Trebuchet MS", sans-serif;
 }
-
-
 
 table.mainTable {
     width: 90vw;
     max-width: 800px;
     height: 400px;
-    padding: auto;
-    margin: auto;  
+    margin: auto;
     border-collapse: collapse;
     text-align: left;
     font-size: 16px;
-    font-family: 'Courier New', monospace;
+    font-family: "Courier New", monospace;
 }
 
-
-tr{
+tr {
     border: 1px solid white;
- }
-
+}
 
 td {
-
-    background-color: black;  
+    background-color: black;
 }
+
 td.main {
     line-height: 3vh;
     border: 1px solid white;
     vertical-align: top;
-    padding-left: 7px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding: 7px;
 }
 
-
-@media (orientation: portrait) {
-
-
-}
-
-
-span.console{
+span.console {
     color: lightgreen;
 }
 
-
-span.response{
+span.response {
     color: white;
 }
 
-
-span.blink{
-  animation: blinker 1s linear infinite;
+span.blink {
+    animation: blinker 1s linear infinite;
 }
 
 @keyframes blinker {
-  50% {
-    opacity: 0;
-  }
-}
-
-
-@media (orientation: portrait) {
-  h1 {
-    width
-  }
+    50% {
+        opacity: 0;
+    }
 }

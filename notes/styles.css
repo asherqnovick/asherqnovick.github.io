@@ -1,0 +1,25 @@
+body {
+    background-color: #2e3a45;
+    color: white;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+header {
+    font-size: 48px;
+    font-weight: bold;
+    color: lightcoral;
+}
+
+.postDate {
+    font-size: 20px;
+    color: lightcoral;
+}
+
+.seperator {
+    color: lightcoral;
+}
+
+.postBody {
+    font-size: 18px;
+}
